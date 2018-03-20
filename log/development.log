@@ -1,0 +1,797 @@
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:16:48 +0100
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/connection_specification.rb:188:in `rescue in spec'
+activerecord (5.1.4) lib/active_record/connection_adapters/connection_specification.rb:185:in `spec'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:880:in `establish_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:58:in `establish_connection'
+activerecord (5.1.4) lib/active_record/railtie.rb:124:in `block (2 levels) in <class:Railtie>'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:69:in `instance_eval'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:69:in `block in execute_hook'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:60:in `with_execution_control'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:65:in `execute_hook'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:50:in `block in run_load_hooks'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:49:in `each'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:49:in `run_load_hooks'
+activerecord (5.1.4) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+activerecord (5.1.4) lib/active_record/base.rb:25:in `<top (required)>'
+activesupport (5.1.4) lib/active_support/dependencies.rb:292:in `require'
+activesupport (5.1.4) lib/active_support/dependencies.rb:292:in `block in require'
+activesupport (5.1.4) lib/active_support/dependencies.rb:258:in `load_dependency'
+activesupport (5.1.4) lib/active_support/dependencies.rb:292:in `require'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:18:07 +0100
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/connection_specification.rb:188:in `rescue in spec'
+activerecord (5.1.4) lib/active_record/connection_adapters/connection_specification.rb:185:in `spec'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:880:in `establish_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:58:in `establish_connection'
+activerecord (5.1.4) lib/active_record/railtie.rb:124:in `block (2 levels) in <class:Railtie>'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:69:in `instance_eval'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:69:in `block in execute_hook'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:60:in `with_execution_control'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:65:in `execute_hook'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:50:in `block in run_load_hooks'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:49:in `each'
+activesupport (5.1.4) lib/active_support/lazy_load_hooks.rb:49:in `run_load_hooks'
+activerecord (5.1.4) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+activerecord (5.1.4) lib/active_record/base.rb:25:in `<top (required)>'
+activesupport (5.1.4) lib/active_support/dependencies.rb:292:in `require'
+activesupport (5.1.4) lib/active_support/dependencies.rb:292:in `block in require'
+activesupport (5.1.4) lib/active_support/dependencies.rb:258:in `load_dependency'
+activesupport (5.1.4) lib/active_support/dependencies.rb:292:in `require'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:29:15 +0100
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "ABCDR_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:694:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (29.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (19.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6241380518355122700)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateWords (20171223223008)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (35.9ms)[0m  [1m[35mCREATE TABLE "words" ("id" bigserial primary key, "word" character varying, "title" character varying, "creation_date" timestamp, "published" boolean, "content" text, "author" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171223223008"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-03-20 12:31:17.862179"], ["updated_at", "2018-03-20 12:31:17.862179"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6241380518355122700)[0m
+  [1m[35m (17.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:31:35 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.8ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 2.6ms)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/words_controller.rb:94:in `%'
+app/controllers/words_controller.rb:94:in `daily_random'
+app/controllers/words_controller.rb:11:in `home'
+  [1m[36mWord Load (0.7ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (43.7ms)[0m  [1m[32mINSERT INTO "words" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2018-03-20 12:41:03.139860"], ["updated_at", "2018-03-20 12:41:03.139860"]]
+  [1m[35m (15.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (20.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "words"[0m
+  [1m[36mWord Load (17.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" ORDER BY "words"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:41:42 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.8ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 6.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/words_controller.rb:79:in `block in index_by_letter'
+app/controllers/words_controller.rb:78:in `index_by_letter'
+app/controllers/words_controller.rb:10:in `home'
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT  "words".* FROM "words" ORDER BY "words"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mWord Load (0.7ms)[0m  [1m[34mSELECT  "words".* FROM "words" ORDER BY "words"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "words"[0m
+  [1m[35m (38.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "words"[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (24.2ms)[0m  [1m[32mINSERT INTO "words" ("word", "title", "creation_date", "published", "content", "author", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["word", "Liberté"], ["title", "La faute au Maréchale Liautey"], ["creation_date", "2018-01-02 00:00:00"], ["published", "t"], ["content", "J’ai déménagé du 8ème au 17ème il y a quelques semaines. A quelques rues près, l’atmosphère diffère substantiellement. On s’approche des Batignolles et de la Place de Clichy. C’est moins huppé et plus vivant comme quartier.\n            En défaisant mes cartons, j’ai retrouvé la biographie du Maréchal Lyautey, les belles pages jaunies de l’écrit d’André Le Révérend, publié chez Fayard, et offert par mon professeur d’histoire. Le Maréchal Lyautey, « le plus profond et le plus lucide artisan de l’empire colonial de la France sous la IIIème République »."], ["author", "Hanae Bezad"], ["created_at", "2018-03-20 12:50:46.472384"], ["updated_at", "2018-03-20 12:50:46.472384"]]
+  [1m[35m (35.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "words"[0m
+  [1m[36mWord Load (0.7ms)[0m  [1m[34mSELECT  "words".* FROM "words" ORDER BY "words"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:51:38 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_sidebar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 10473ms (Views: 10429.6ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:52:04 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (1.1ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 35.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/manifeste" for 127.0.0.1 at 2018-03-20 13:52:06 +0100
+Processing by PagesController#manifeste as HTML
+  Rendering pages/manifeste.html.erb within layouts/application
+  Rendered pages/manifeste.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:53:13 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_sidebar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 107ms (Views: 92.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/words/2/Libert%C3%A9" for 127.0.0.1 at 2018-03-20 13:53:17 +0100
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2", "word"=>"Liberté"}
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering words/show.html.erb within layouts/application
+  Rendered words/show.html.erb within layouts/application (1.1ms)
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 125ms (Views: 36.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:54:45 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 35.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/words/2/Libert%C3%A9" for 127.0.0.1 at 2018-03-20 13:55:19 +0100
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2", "word"=>"Liberté"}
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering words/show.html.erb within layouts/application
+  Rendered words/show.html.erb within layouts/application (1.1ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 30.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 13:56:43 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:57:52 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_sidebar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 45ms (Views: 41.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 13:58:02 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 44ms (Views: 40.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/manifeste" for 127.0.0.1 at 2018-03-20 13:58:04 +0100
+Processing by PagesController#manifeste as HTML
+  Rendering pages/manifeste.html.erb within layouts/application
+  Rendered pages/manifeste.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_sidebar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 44ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 13:58:06 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_sidebar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 14:06:09 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 36.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:24:06 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manifeste" for 127.0.0.1 at 2018-03-20 14:24:08 +0100
+Processing by PagesController#manifeste as HTML
+  Rendering pages/manifeste.html.erb within layouts/application
+  Rendered pages/manifeste.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 14:24:10 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 34.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/manifeste" for 127.0.0.1 at 2018-03-20 14:24:14 +0100
+Processing by PagesController#manifeste as HTML
+  Rendering pages/manifeste.html.erb within layouts/application
+  Rendered pages/manifeste.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:24:17 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:24:47 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:24:55 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 14:25:15 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_sidebar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proprieteintellectuelle" for 127.0.0.1 at 2018-03-20 14:25:17 +0100
+Processing by PagesController#proprieteintellectuelle as HTML
+  Rendering pages/proprieteintellectuelle.html.erb within layouts/application
+  Rendered pages/proprieteintellectuelle.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/confidentialite" for 127.0.0.1 at 2018-03-20 14:25:19 +0100
+Processing by PagesController#confidentialite as HTML
+  Rendering pages/confidentialite.html.erb within layouts/application
+  Rendered pages/confidentialite.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-03-20 14:25:20 +0100
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 14:25:49 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 14:25:56 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (2.9ms)
+  Rendered shared/_sidebar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 14:25:58 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_sidebar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 14:25:59 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 14:26:02 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 14:26:09 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_sidebar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 40ms (Views: 35.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/manifeste" for 127.0.0.1 at 2018-03-20 14:26:26 +0100
+Processing by PagesController#manifeste as HTML
+  Rendering pages/manifeste.html.erb within layouts/application
+  Rendered pages/manifeste.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:26:30 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:26:48 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manifeste" for 127.0.0.1 at 2018-03-20 14:26:50 +0100
+Processing by PagesController#manifeste as HTML
+  Rendering pages/manifeste.html.erb within layouts/application
+  Rendered pages/manifeste.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 14:26:57 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_sidebar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proprieteintellectuelle" for 127.0.0.1 at 2018-03-20 14:26:58 +0100
+Processing by PagesController#proprieteintellectuelle as HTML
+  Rendering pages/proprieteintellectuelle.html.erb within layouts/application
+  Rendered pages/proprieteintellectuelle.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/confidentialite" for 127.0.0.1 at 2018-03-20 14:27:00 +0100
+Processing by PagesController#confidentialite as HTML
+  Rendering pages/confidentialite.html.erb within layouts/application
+  Rendered pages/confidentialite.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 14:34:55 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_sidebar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 131ms (Views: 81.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/manifeste" for 127.0.0.1 at 2018-03-20 14:35:25 +0100
+Processing by PagesController#manifeste as HTML
+  Rendering pages/manifeste.html.erb within layouts/application
+  Rendered pages/manifeste.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manifeste" for 127.0.0.1 at 2018-03-20 14:35:46 +0100
+Processing by PagesController#manifeste as HTML
+  Rendering pages/manifeste.html.erb within layouts/application
+  Rendered pages/manifeste.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_sidebar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:35:48 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:37:51 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_sidebar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 88ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:39:33 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/collaborer" for 127.0.0.1 at 2018-03-20 14:40:53 +0100
+Processing by PagesController#collaborer as HTML
+  Rendering pages/collaborer.html.erb within layouts/application
+  Rendered pages/collaborer.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_sidebar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 85ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/association" for 127.0.0.1 at 2018-03-20 14:41:30 +0100
+Processing by PagesController#association as HTML
+  Rendering pages/association.html.erb within layouts/application
+  Rendered pages/association.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proprieteintellectuelle" for 127.0.0.1 at 2018-03-20 14:41:32 +0100
+Processing by PagesController#proprieteintellectuelle as HTML
+  Rendering pages/proprieteintellectuelle.html.erb within layouts/application
+  Rendered pages/proprieteintellectuelle.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/confidentialite" for 127.0.0.1 at 2018-03-20 14:41:34 +0100
+Processing by PagesController#confidentialite as HTML
+  Rendering pages/confidentialite.html.erb within layouts/application
+  Rendered pages/confidentialite.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_sidebar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-03-20 14:41:36 +0100
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_sidebar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-03-20 14:48:16 +0100
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_sidebar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 63ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 15:00:28 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.8ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (7.0ms)
+  Rendered shared/_sidebar.html.erb (1.3ms)
+  Rendered shared/_flashes.html.erb (1.6ms)
+Completed 200 OK in 195ms (Views: 146.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/words/2/Libert%C3%A9" for 127.0.0.1 at 2018-03-20 15:00:30 +0100
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2", "word"=>"Liberté"}
+  [1m[36mWord Load (1.7ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering words/show.html.erb within layouts/application
+  Rendered words/show.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (5.8ms)
+  Rendered shared/_sidebar.html.erb (1.9ms)
+  Rendered shared/_flashes.html.erb (1.7ms)
+Completed 200 OK in 189ms (Views: 137.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 15:00:45 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (0.9ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (6.4ms)
+  Rendered shared/_sidebar.html.erb (1.9ms)
+  Rendered shared/_flashes.html.erb (1.4ms)
+Completed 200 OK in 171ms (Views: 144.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/words/2/Libert%C3%A9" for 127.0.0.1 at 2018-03-20 15:00:52 +0100
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2", "word"=>"Liberté"}
+  [1m[36mWord Load (1.1ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering words/show.html.erb within layouts/application
+  Rendered words/show.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (5.9ms)
+  Rendered shared/_sidebar.html.erb (1.6ms)
+  Rendered shared/_flashes.html.erb (1.9ms)
+Completed 200 OK in 234ms (Views: 207.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-20 15:02:25 +0100
+Processing by WordsController#home as HTML
+  [1m[36mWord Load (1.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  Rendering words/home.html.erb within layouts/application
+  Rendered words/home.html.erb within layouts/application (5.6ms)
+  Rendered shared/_navbar.html.erb (5.4ms)
+  Rendered shared/_sidebar.html.erb (1.5ms)
+  Rendered shared/_flashes.html.erb (1.5ms)
+Completed 200 OK in 232ms (Views: 193.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/words/2/Libert%C3%A9" for 127.0.0.1 at 2018-03-20 15:02:29 +0100
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2", "word"=>"Liberté"}
+  [1m[36mWord Load (1.2ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering words/show.html.erb within layouts/application
+  Rendered words/show.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (6.8ms)
+  Rendered shared/_sidebar.html.erb (1.2ms)
+  Rendered shared/_flashes.html.erb (1.8ms)
+Completed 200 OK in 216ms (Views: 158.0ms | ActiveRecord: 1.2ms)
+
+
